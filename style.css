@@ -2,39 +2,51 @@ body {
     background: url(https://entrepreneurhandbook.co.uk/wp-content/uploads/2020/03/Stocks-earning.jpg.webp);
     background-size: cover;
     width: 90%;
-    max-width: 1200px;
-    margin: 400px;
+    max-width: 900px;
+    margin: 300px;
 }
 .Intro {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     color: aqua;
-    text-shadow: 2px 2px 2px rgb(106, 0, 177);
+    text-shadow: 6px 3px 2px rgb(106, 0, 177);
     font-size: 26px;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
     margin-left: 100px;
+    margin-top: -250px;
 }
 p {
     color: rgb(189, 0, 126);
     text-shadow: 1px 1px 1px aqua;
     font-size: 20px;
-    border: ridge;
+    border: outset;
+    border: double;
     border-color: rgba(121, 130, 250, 0.966);
-    border-radius: 10px;
+    border-radius: 50px;
+    padding: 20px;
+    border-inline-color: rgb(176, 0, 211);
+    border-width: 10px;
+    margin-right: 100px;
 }
 .Basics {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
     color: aqua;
-    text-shadow: 2px 2px 2px rgb(106, 0, 177);
-    font-size: 26px;
-    text-decoration: underline;
+    text-shadow: 6px 3px 2px rgb(106, 0, 177);
+    font-size: 35px;
+    text-decoration: none;
     width: 48%;
+    margin-top: -650px;
+    margin-left: 700px;
 }
 .Chart {
-    margin-left: -350px;
-    margin-top: -500px;
-    height: 250px;
+    margin-left: -290px;
+    margin-top: -900px;
+    margin-bottom: 41%;
+    height: 200px;
+    border: double;
+    border-color: rgb(129, 0, 97);
+    border-width: 10px;
 }
 button, button::after {
     padding: 20px, 40px;
@@ -52,14 +64,16 @@ button:hover {
     transition: .3s;
 }
 p.Welcome {
-    width: 40%;
-    margin-left: 30px;
+    width: 150%;
+    margin-left: -350px;
+    margin-top: 300px;
+    font-size: 20px;
 }
 p.Profitability {
     width: 70%;
     position: right;
     text-align: center;
-    margin-left: 230px;
+
 }
 .Chat {
     font-size: 25px;
@@ -70,23 +84,83 @@ p.Profitability {
 .Table {
     border: double;
     border-color: darkturquoise;
-    padding: 0;
+    padding: 5px;
     margin: auto;
     text-align: center;
     display: grid;
     color: aqua;
     text-shadow: 2px 2px 2px rgb(189, 0, 126);
+    border-inline-color: rgb(69, 0, 126);
+    font-size: 20px;
+    table-layout: auto;
+    width: 80%;
+    border-width: 10px;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-left: 230px;
 }
 table, th, td {
     border: 1px solid;
     border-color: cyan;
+    border-radius: 2px;
+    border-spacing: 5px;
 }
 .Subjects {
-    font-size: 20px;
+    font-size: 40px;
     color: cyan;
     text-align: center;
+    margin-bottom: 100px;
+    text-decoration-style: wavy;
+    text-decoration: underline;
+    margin-top: -150px;
+    text-shadow: 5px 3px 2px rgb(69, 0, 126);
+    margin-left: 300px;
 }
 .Welcome {
     text-align: center;
-    margin-left: 700px;
+}
+h3 {
+    margin-top: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1,
+h2{
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 450px;
+}
+.headshot {
+    max-width: 25%;
+    border: double;
+    border-color: rgb(143, 0, 209);
+    margin-left: 470px;
+    padding: 0px;
+    margin-top: 20px;
+    border-style: groove;
+    border-width: 30px;
+}
+h4 {
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(117, 0, 153);
+    border: groove;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(102, 224, 255);
+    border-width: 10px;
+    border-color: rgb(160, 160, 255);
+    margin-left: 300px;
+}
+.Blue {
+    width: 350px;
+    margin-left: 136%;
+    margin-right: 55%;
+    margin-top: -100%;
+    margin-bottom: 39%;
+    border: double;
+    border-color:rgb(129, 0, 97);
+    border-width: 10px;
+}
+h5 {
+    margin-left: 330px;
 }
