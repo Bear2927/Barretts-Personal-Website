@@ -1,0 +1,92 @@
+body {
+    background: url(https://entrepreneurhandbook.co.uk/wp-content/uploads/2020/03/Stocks-earning.jpg.webp);
+    background-size: cover;
+    width: 90%;
+    max-width: 1200px;
+    margin: 400px;
+}
+.Intro {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    color: aqua;
+    text-shadow: 2px 2px 2px rgb(106, 0, 177);
+    font-size: 26px;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 100px;
+}
+p {
+    color: rgb(189, 0, 126);
+    text-shadow: 1px 1px 1px aqua;
+    font-size: 20px;
+    border: ridge;
+    border-color: rgba(121, 130, 250, 0.966);
+    border-radius: 10px;
+}
+.Basics {
+    grid-template-columns: 1fr 1fr 1fr;
+    color: aqua;
+    text-shadow: 2px 2px 2px rgb(106, 0, 177);
+    font-size: 26px;
+    text-decoration: underline;
+    width: 48%;
+}
+.Chart {
+    margin-left: -350px;
+    margin-top: -500px;
+    height: 250px;
+}
+button, button::after {
+    padding: 20px, 40px;
+    font-size: 30px;
+    margin-left: 525px;
+    background-color: rgb(23, 208, 221);
+    border: double;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(117, 0, 117);
+    color: rgb(148, 0, 86);
+}
+button:hover {
+    background-color: rgb(30, 0, 139);
+    transition: .3s;
+}
+p.Welcome {
+    width: 40%;
+    margin-left: 30px;
+}
+p.Profitability {
+    width: 70%;
+    position: right;
+    text-align: center;
+    margin-left: 230px;
+}
+.Chat {
+    font-size: 25px;
+    color:rgb(23, 208, 221);
+    text-decoration: underline;
+    text-align: center;
+}
+.Table {
+    border: double;
+    border-color: darkturquoise;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    color: aqua;
+    text-shadow: 2px 2px 2px rgb(189, 0, 126);
+}
+table, th, td {
+    border: 1px solid;
+    border-color: cyan;
+}
+.Subjects {
+    font-size: 20px;
+    color: cyan;
+    text-align: center;
+}
+.Welcome {
+    text-align: center;
+    margin-left: 700px;
+}
